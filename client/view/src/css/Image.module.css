@@ -1,0 +1,66 @@
+
+.main {
+    display: flex;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.main div {
+    height: 15.2rem;
+    width: 35%;
+    margin: 0.4rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.img {
+    height: 14.5rem;
+    width: 100%;
+  object-fit: contain;
+}
+.box{
+    height: 3rem;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: blueviolet;
+  
+ 
+}
+.box p{
+   
+  
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    border-right: 3px solid white;
+   
+}
+
+.main div:hover{
+border: 1px solid black;
+}
+@media screen and (max-width: 768px) {
+    .main {
+        flex-direction: column; 
+    }
+
+    .main div {
+        width: 100%; 
+    }
+
+    .img {
+        width: 100%; 
+        height: auto; 
+    }
+    .box p{
+   
+  
+       align-items: center;
+        font-size: 1rem;
+        
+       
+    }
+}

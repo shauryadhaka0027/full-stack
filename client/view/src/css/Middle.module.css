@@ -1,0 +1,41 @@
+.middle {
+    width: 100%;
+    margin: 1rem auto;
+    max-width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table {
+    height: auto;
+}
+
+.table:hover {
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.table img {
+    object-fit: contain;
+    width: 100%;
+    max-width: 18rem;
+}
+
+.table h3, p {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .middle {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 70%; 
+    }
+
+    .table {
+        margin-top: 1rem;
+        width: 100%;
+        margin-left: 0; 
+        padding-left: 0; 
+    }
+}
