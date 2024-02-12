@@ -1,10 +1,8 @@
 
-import Content from "./components/Content"
-import Navabar from "./components/Navabar"
-import Header from "./components/Header"
+import Menu from "./components/Menuu"
 import "../src/App.css"
-import Images from "./components/Images"
-import Middle from "./components/Middle"
+import MainRoute from "./pages/MainRoute"
+
 
 
 function App() {
@@ -12,10 +10,12 @@ function App() {
 
   return (
     <>
-    {/* <Navabar/> */}
-    <Header/>
-  <Images/>
-  <Middle/>
+    
+     <MainRoute/> 
+    
+
+
+
    
         
     </>

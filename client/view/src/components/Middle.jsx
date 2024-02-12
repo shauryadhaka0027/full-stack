@@ -3,6 +3,7 @@ import style from "../css/Middle.module.css"
 
 const Middle = () => {
   return (
+    <div>
     <div className={style.middle}>
       <div className={style.table}>
         <img src="https://assets.wfcdn.com/im/27210808/scale-h352-w352%5Ecompr-r85/1892/189267622/default_name.jpg" alt="" />
@@ -30,6 +31,13 @@ const Middle = () => {
         <h3>Coffee</h3>
         <p>Millwood Tables</p>
       </div>
+
+    </div >
+
+    <div className={style.bottom}>
+    <img src="https://assets.wfcdn.com/im/93161892/resize-h655-w2880%5Ecompr-r85/2650/265067885/conquer_that_clutter_%28for_less%29._take_tidying_up_from_to-do_to_done._shop_now._265067885.jpg" alt="" />
+ </div>
+
     </div>
   )
 }
