@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-between;
     max-width: 95%;
-    margin: 0 auto; 
+    margin: 5rem auto; 
+    padding-top: 2rem;
   }
   
   .maindiv div{

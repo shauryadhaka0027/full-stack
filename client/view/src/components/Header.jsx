@@ -5,6 +5,7 @@ import style from '../css/Content.module.css';
 
 const Header = () => {
   return (
+
     <div className={style.maindiv}>
       <div>
         <Content />
@@ -18,6 +19,11 @@ const Header = () => {
         </div>
       </div>
     </div>
+ 
+
+ 
+
+    
   );
 }
 
